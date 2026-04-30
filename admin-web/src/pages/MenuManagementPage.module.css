@@ -1,0 +1,64 @@
+.page { height: 100%; }
+.heading { font-size: 1.25rem; font-weight: 700; margin-bottom: 16px; }
+.layout { display: flex; gap: 20px; height: calc(100vh - 160px); }
+
+/* 사이드바 */
+.sidebar { width: 260px; flex-shrink: 0; background: #fff; border-radius: 12px; padding: 16px; overflow-y: auto; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.sidebarTitle { font-size: 0.9375rem; font-weight: 600; margin-bottom: 12px; }
+.addCatRow { display: flex; gap: 4px; margin-bottom: 12px; }
+.catInput { flex: 1; padding: 6px 8px; border: 1px solid #d1d5db; border-radius: 6px; font-size: 0.8125rem; }
+.catInput:focus { outline: none; border-color: #3b82f6; }
+.catAddBtn { padding: 4px 10px; border-radius: 6px; background: #3b82f6; color: #fff; font-size: 0.8125rem; }
+.catGroup { margin-bottom: 4px; }
+.catHeader { display: flex; justify-content: space-between; align-items: center; }
+.catToggle { font-size: 0.875rem; font-weight: 500; padding: 6px 4px; flex: 1; text-align: left; }
+.catDeleteBtn { font-size: 0.75rem; color: #9ca3af; padding: 4px; }
+.catDeleteBtn:hover { color: #dc2626; }
+.subList { padding-left: 16px; display: flex; flex-direction: column; gap: 2px; margin: 4px 0; }
+.subItem { font-size: 0.8125rem; padding: 6px 8px; border-radius: 6px; text-align: left; color: #4b5563; }
+.subItem:hover { background: #f3f4f6; }
+.subItem.subActive { background: #dbeafe; color: #1e40af; font-weight: 500; }
+.addSubRow { display: flex; gap: 4px; margin-top: 4px; }
+.addSubBtn { font-size: 0.75rem; color: #3b82f6; padding: 4px 8px; }
+.allMenuBtn { margin-top: 12px; width: 100%; padding: 8px; border-radius: 6px; background: #f3f4f6; font-size: 0.8125rem; color: #374151; }
+.allMenuBtn:hover { background: #e5e7eb; }
+
+/* 콘텐츠 */
+.content { flex: 1; overflow-y: auto; }
+.menuTopBar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; }
+.menuCount { font-size: 0.875rem; color: #6b7280; }
+.addMenuBtn { padding: 8px 16px; border-radius: 8px; background: #3b82f6; color: #fff; font-size: 0.8125rem; font-weight: 500; }
+.addMenuBtn:hover { background: #2563eb; }
+.empty { text-align: center; color: #9ca3af; padding: 48px 0; }
+
+.menuGrid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 12px; }
+.menuCard { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); }
+.menuImage { width: 100%; height: 160px; object-fit: cover; }
+.menuInfo { padding: 12px 16px; }
+.menuName { font-weight: 600; font-size: 1rem; display: block; margin-bottom: 4px; }
+.menuPriceLabel { font-weight: 700; color: #1e40af; font-size: 1rem; display: block; margin-bottom: 4px; }
+.menuDescText { font-size: 0.8125rem; color: #6b7280; margin-bottom: 6px; }
+.availBadge { font-size: 0.6875rem; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.avail { background: #d1fae5; color: #065f46; }
+.unavail { background: #fee2e2; color: #dc2626; }
+.menuActions { display: flex; gap: 4px; padding: 0 16px 12px; }
+.editBtn, .imgBtn, .delBtn { padding: 6px 10px; border-radius: 6px; font-size: 0.75rem; }
+.editBtn { background: #f3f4f6; color: #374151; }
+.editBtn:hover { background: #e5e7eb; }
+.imgBtn { background: #ede9fe; color: #5b21b6; }
+.imgBtn:hover { background: #ddd6fe; }
+.delBtn { background: #fee2e2; color: #dc2626; }
+.delBtn:hover { background: #fecaca; }
+
+/* 모달 */
+.modalOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.modal { background: #fff; border-radius: 12px; padding: 24px; width: 90%; max-width: 480px; display: flex; flex-direction: column; gap: 12px; }
+.modal h3 { font-size: 1.125rem; font-weight: 600; }
+.formError { color: #dc2626; font-size: 0.8125rem; }
+.formLabel { display: flex; flex-direction: column; gap: 4px; font-size: 0.875rem; font-weight: 500; }
+.formInput, .formSelect { padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+.formInput:focus, .formSelect:focus { outline: none; border-color: #3b82f6; }
+.formTextarea { padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; resize: vertical; }
+.formActions { display: flex; gap: 8px; justify-content: flex-end; }
+.cancelBtn { padding: 8px 16px; border-radius: 8px; background: #e5e7eb; color: #374151; font-size: 0.8125rem; }
+.submitBtn { padding: 8px 16px; border-radius: 8px; background: #3b82f6; color: #fff; font-size: 0.8125rem; font-weight: 500; }

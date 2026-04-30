@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px;
+  gap: 12px;
+}
+
+.message {
+  color: #dc2626;
+  font-size: 0.9375rem;
+}
+
+.retryBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.retryBtn:hover {
+  background: #2563eb;
+}
