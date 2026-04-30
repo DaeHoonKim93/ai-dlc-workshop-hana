@@ -3,7 +3,7 @@
 ## Project Information
 - **Project Type**: Greenfield
 - **Start Date**: 2026-04-30T00:00:00Z
-- **Current Stage**: CONSTRUCTION - Functional Design (Complete, All Units)
+- **Current Stage**: CONSTRUCTION - Build and Test (Complete)
 
 ## Workspace State
 - **Existing Code**: No
@@ -28,11 +28,11 @@
 - [x] INCEPTION - Application Design — **EXECUTE**
 - [x] INCEPTION - Units Generation — **EXECUTE**
 - [x] CONSTRUCTION - Functional Design — **EXECUTE** (per-unit)
-- [ ] CONSTRUCTION - NFR Requirements — **EXECUTE** (per-unit)
-- [ ] CONSTRUCTION - NFR Design — **EXECUTE** (per-unit)
+- [x] CONSTRUCTION - NFR Requirements — **EXECUTE** (per-unit)
+- [x] CONSTRUCTION - NFR Design — **EXECUTE** (per-unit)
 - [ ] CONSTRUCTION - Infrastructure Design — **SKIP** (MVP 단계, 추후 진행)
-- [ ] CONSTRUCTION - Code Generation — **EXECUTE** (per-unit)
-- [ ] CONSTRUCTION - Build and Test — **EXECUTE**
+- [x] CONSTRUCTION - Code Generation — **EXECUTE** (per-unit)
+- [x] CONSTRUCTION - Build and Test — **EXECUTE**
 
 ## Execution Plan Summary
 - **Total Stages**: 11 (SKIP 1개 제외)
