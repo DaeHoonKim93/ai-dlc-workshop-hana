@@ -1,0 +1,9 @@
+rootProject.name = 'table-order-backend'
+
+include 'common'
+include 'auth'
+include 'store'
+include 'table'
+include 'menu'
+include 'order'
+include 'app'

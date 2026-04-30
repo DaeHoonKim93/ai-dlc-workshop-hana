@@ -1,0 +1,33 @@
+spring:
+  profiles:
+    active: dev
+  application:
+    name: table-order-backend
+  servlet:
+    multipart:
+      max-file-size: 5MB
+      max-request-size: 10MB
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        default_batch_fetch_size: 100
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+server:
+  port: 8080
+
+aws:
+  s3:
+    bucket: ${AWS_S3_BUCKET:table-order-images}
+    region: ${AWS_REGION:ap-northeast-2}
+
+logging:
+  level:
+    com.tableorder: INFO
+    org.springframework.web: INFO
