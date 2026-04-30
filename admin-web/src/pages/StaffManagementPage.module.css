@@ -1,0 +1,30 @@
+.topBar { display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px; }
+.heading { font-size: 1.25rem; font-weight: 700; }
+.addBtn { padding: 8px 16px; border-radius: 8px; background: #3b82f6; color: #fff; font-weight: 500; font-size: 0.875rem; }
+.addBtn:hover { background: #2563eb; }
+
+.table { width: 100%; background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 4px rgba(0,0,0,0.06); border-collapse: collapse; }
+.table th { background: #f9fafb; padding: 12px 16px; text-align: left; font-size: 0.8125rem; font-weight: 600; color: #6b7280; border-bottom: 1px solid #e5e7eb; }
+.table td { padding: 12px 16px; font-size: 0.875rem; border-bottom: 1px solid #f3f4f6; }
+.username { font-weight: 600; }
+.date { color: #6b7280; font-size: 0.8125rem; }
+.roleBadge { font-size: 0.6875rem; padding: 2px 8px; border-radius: 10px; font-weight: 500; }
+.manager { background: #ede9fe; color: #5b21b6; }
+.staff { background: #dbeafe; color: #1e40af; }
+.actions { display: flex; gap: 6px; }
+.editBtn { padding: 4px 10px; border-radius: 6px; background: #f3f4f6; color: #374151; font-size: 0.75rem; }
+.editBtn:hover { background: #e5e7eb; }
+.deleteBtn { padding: 4px 10px; border-radius: 6px; background: #fee2e2; color: #dc2626; font-size: 0.75rem; }
+.deleteBtn:hover { background: #fecaca; }
+.empty { text-align: center; color: #9ca3af; padding: 32px 0; }
+
+.modalOverlay { position: fixed; inset: 0; background: rgba(0,0,0,0.5); display: flex; align-items: center; justify-content: center; z-index: 1000; }
+.modal { background: #fff; border-radius: 12px; padding: 24px; width: 90%; max-width: 420px; display: flex; flex-direction: column; gap: 12px; }
+.modal h3 { font-size: 1.125rem; font-weight: 600; }
+.formError { color: #dc2626; font-size: 0.8125rem; }
+.formLabel { display: flex; flex-direction: column; gap: 4px; font-size: 0.875rem; font-weight: 500; }
+.formInput, .formSelect { padding: 8px 12px; border: 1px solid #d1d5db; border-radius: 8px; }
+.formInput:focus, .formSelect:focus { outline: none; border-color: #3b82f6; }
+.formActions { display: flex; gap: 8px; justify-content: flex-end; }
+.cancelBtn { padding: 8px 16px; border-radius: 8px; background: #e5e7eb; color: #374151; font-size: 0.8125rem; }
+.submitBtn { padding: 8px 16px; border-radius: 8px; background: #3b82f6; color: #fff; font-size: 0.8125rem; font-weight: 500; }

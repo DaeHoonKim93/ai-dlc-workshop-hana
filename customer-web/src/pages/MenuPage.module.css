@@ -1,0 +1,216 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background: #f5f5f5;
+  padding-bottom: 80px;
+}
+
+.categoryNav {
+  display: flex;
+  gap: 4px;
+  padding: 12px 16px;
+  background: #fff;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.categoryTab {
+  padding: 10px 20px;
+  min-height: 44px;
+  border-radius: 20px;
+  font-size: 0.875rem;
+  font-weight: 500;
+  white-space: nowrap;
+  background: #f3f4f6;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.categoryTab.active {
+  background: #3b82f6;
+  color: #fff;
+}
+
+.subCategoryTabs {
+  display: flex;
+  gap: 4px;
+  padding: 8px 16px;
+  background: #fff;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.subTab {
+  padding: 8px 16px;
+  min-height: 36px;
+  border-radius: 16px;
+  font-size: 0.8125rem;
+  white-space: nowrap;
+  background: transparent;
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.subTab.active {
+  background: #eff6ff;
+  color: #3b82f6;
+  font-weight: 600;
+}
+
+.menuGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 12px;
+  padding: 16px;
+  flex: 1;
+}
+
+.menuCard {
+  background: #fff;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+
+.menuImage {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  background: #f3f4f6;
+}
+
+.menuInfo {
+  padding: 10px 12px 4px;
+}
+
+.menuName {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 4px;
+}
+
+.menuPrice {
+  font-size: 0.875rem;
+  color: #3b82f6;
+  font-weight: 700;
+}
+
+.addBtn {
+  margin: 8px 12px 12px;
+  padding: 8px;
+  min-height: 44px;
+  background: #3b82f6;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.addBtn:active { background: #2563eb; }
+
+.emptyMessage {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #9ca3af;
+  padding: 48px 0;
+  font-size: 0.875rem;
+}
+
+/* 모달 */
+.modalOverlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 24px;
+}
+
+.modal {
+  background: #fff;
+  border-radius: 16px;
+  max-width: 400px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.modalImage {
+  width: 100%;
+  aspect-ratio: 4/3;
+  object-fit: cover;
+}
+
+.modalName {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 16px 20px 4px;
+}
+
+.modalPrice {
+  font-size: 1.125rem;
+  color: #3b82f6;
+  font-weight: 700;
+  padding: 0 20px;
+}
+
+.modalDesc {
+  font-size: 0.875rem;
+  color: #6b7280;
+  padding: 8px 20px 0;
+  line-height: 1.5;
+}
+
+.modalActions {
+  display: flex;
+  gap: 8px;
+  padding: 20px;
+}
+
+.modalCloseBtn,
+.modalAddBtn {
+  flex: 1;
+  padding: 12px;
+  min-height: 48px;
+  border-radius: 8px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+.modalCloseBtn {
+  background: #f3f4f6;
+  color: #374151;
+}
+
+.modalAddBtn {
+  background: #3b82f6;
+  color: #fff;
+}
+
+/* 장바구니 플로팅 버튼 */
+.cartFloat {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 14px 28px;
+  min-height: 52px;
+  background: #3b82f6;
+  color: #fff;
+  border-radius: 26px;
+  font-size: 0.9375rem;
+  font-weight: 600;
+  box-shadow: 0 4px 16px rgba(59, 130, 246, 0.4);
+  white-space: nowrap;
+  z-index: 100;
+}
+
+.cartFloat:active { background: #2563eb; }

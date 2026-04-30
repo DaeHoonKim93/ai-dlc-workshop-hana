@@ -1,0 +1,24 @@
+{
+  "name": "table-order-frontend",
+  "private": true,
+  "version": "1.0.0",
+  "workspaces": [
+    "admin-web",
+    "customer-web"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "node dev-server.js",
+    "build:customer": "npm run build -w customer-web",
+    "build:admin": "npm run build -w admin-web",
+    "build": "npm run build:customer && npm run build:admin",
+    "preview": "node dev-server.js --preview",
+    "lint": "npm run lint -w customer-web && npm run lint -w admin-web",
+    "test": "npm run test -w customer-web"
+  },
+  "devDependencies": {
+    "express": "^4.21.0",
+    "http-proxy-middleware": "^3.0.3",
+    "vite": "^6.0.0"
+  }
+}

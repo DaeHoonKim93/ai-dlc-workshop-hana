@@ -1,0 +1,64 @@
+{
+  "common": {
+    "loading": "Loading...",
+    "retry": "Retry",
+    "confirm": "Confirm",
+    "cancel": "Cancel",
+    "back": "Back",
+    "networkError": "Please check your network connection",
+    "timeoutError": "Server response is delayed",
+    "unknownError": "An error occurred"
+  },
+  "login": {
+    "title": "Tablet Setup",
+    "storeCode": "Store Code",
+    "tableNumber": "Table Number",
+    "password": "Password",
+    "submit": "Login",
+    "authFailed": "Invalid credentials",
+    "accountLocked": "Login attempts restricted (retry after 15 minutes)"
+  },
+  "menu": {
+    "title": "Menu",
+    "empty": "No menus available",
+    "addToCart": "Add",
+    "detail": "Details",
+    "addedToCart": "Added to cart"
+  },
+  "cart": {
+    "title": "Cart",
+    "empty": "Your cart is empty",
+    "goToMenu": "Browse Menu",
+    "order": "Place Order",
+    "total": "Total",
+    "itemCount": "{{count}} items",
+    "clearAll": "Clear All",
+    "clearConfirmTitle": "Clear Cart",
+    "clearConfirmMessage": "Remove all items from your cart?"
+  },
+  "order": {
+    "confirmTitle": "Order Confirmation",
+    "table": "Table",
+    "placeOrder": "Confirm Order",
+    "emptyCart": "Please add items to your cart",
+    "submitting": "Placing order...",
+    "successTitle": "Order Placed Successfully",
+    "orderNumber": "Order Number",
+    "redirecting": "Redirecting to menu in {{seconds}} seconds",
+    "menuNotAvailable": "Some items are no longer available"
+  },
+  "orderHistory": {
+    "title": "Order History",
+    "empty": "No orders yet",
+    "status": {
+      "PENDING": "Pending",
+      "ACCEPTED": "Accepted",
+      "PREPARING": "Preparing",
+      "COMPLETED": "Completed"
+    }
+  },
+  "language": {
+    "ko": "한국어",
+    "en": "English"
+  }
+}

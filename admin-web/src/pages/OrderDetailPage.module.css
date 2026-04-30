@@ -1,0 +1,108 @@
+.topBar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.backBtn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  background: #f3f4f6;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.backBtn:hover { background: #e5e7eb; }
+
+.heading {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.empty {
+  text-align: center;
+  color: #9ca3af;
+  padding: 48px 0;
+}
+
+.orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.orderCard {
+  background: #fff;
+  border-radius: 12px;
+  padding: 16px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.cardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 4px;
+}
+
+.orderNumber {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
+.cardTime {
+  font-size: 0.8125rem;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 10px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  color: #374151;
+}
+
+.cardTotal {
+  font-weight: 700;
+  font-size: 1rem;
+  text-align: right;
+  margin-bottom: 12px;
+  color: #1e40af;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+}
+
+.statusBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #3b82f6;
+  color: #fff;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.statusBtn:hover { background: #2563eb; }
+
+.deleteBtn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  background: #fee2e2;
+  color: #dc2626;
+  font-size: 0.8125rem;
+  font-weight: 500;
+}
+
+.deleteBtn:hover { background: #fecaca; }

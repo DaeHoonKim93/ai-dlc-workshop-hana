@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="400" viewBox="0 0 400 400">
+  <rect width="400" height="400" fill="#fafaf9"/>
+  <circle cx="200" cy="180" r="100" fill="#f5f5f4"/>
+  <circle cx="200" cy="180" r="80" fill="#78716c" opacity="0.1"/>
+  <text x="200" y="190" text-anchor="middle" font-size="64">🍚</text>
+  <text x="200" y="310" text-anchor="middle" font-family="'Noto Sans KR',sans-serif" font-size="20" font-weight="600" fill="#44403c">공기밥</text>
+  <text x="200" y="340" text-anchor="middle" font-family="sans-serif" font-size="16" fill="#78716c">1,000원</text>
+</svg>
