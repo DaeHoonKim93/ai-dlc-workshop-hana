@@ -215,3 +215,19 @@
 **Context**: Functional Design - Additional API Specification for FE team collaboration
 
 ---
+
+## CONSTRUCTION - NFR Requirements (Unit 1: Backend-Core) - Start
+**Timestamp**: 2026-04-30T12:00:00Z
+**User Input**: "2번 진행"
+**AI Response**: NFR Requirements 단계 시작. NFR 질문 계획서 생성 (unit1-backend-core-nfr-requirements-plan.md). 15개 질문 제시.
+**Context**: Construction Phase - NFR Requirements for Unit 1
+
+---
+
+## CONSTRUCTION - NFR Requirements (Unit 1) - 답변 수집 완료
+**Timestamp**: 2026-04-30T12:30:00Z
+**User Input**: "응답완료" + Q8 추가 질문: "Q8 도커 컴포즈 내에서 network로 통신할건데 어떻게해야되지? 10.0.0.0/8으로 하면되나? Q10. 각각jar로 배포하고 나는 url unit1으로 할게"
+**AI Response**: Q8 CORS는 브라우저→백엔드에만 적용됨을 설명, POC 단계 전체 허용으로 결정. Q10 별도 JAR 배포, context-path /unit1 설정. NFR Requirements 문서 및 Tech Stack Decisions 문서 생성 완료.
+**Context**: Construction Phase - NFR Requirements answers collected and documents generated
+
+---
