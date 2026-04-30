@@ -207,3 +207,11 @@
 **Context**: Functional Design - All Units Generation & Completion
 
 ---
+
+## CONSTRUCTION - Unit 2 API Specification Created
+**Timestamp**: 2026-04-30T00:25:00Z
+**User Input**: "응응 만들어주라" (API 상세 설계서 요청)
+**AI Response**: Unit 2 API 상세 설계서 생성 완료. Table API 4개, Category API 5개, Menu API 7개, Order API 5개, SSE API 1개, Dashboard API 1개. 총 23개 엔드포인트의 Request/Response JSON 스펙, HTTP 상태 코드, 에러 응답 정의.
+**Context**: Functional Design - Additional API Specification for FE team collaboration
+
+---
