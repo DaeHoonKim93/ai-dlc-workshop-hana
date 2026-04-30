@@ -1,8 +1,8 @@
 rootProject.name = 'table-order-backend'
 
 include 'common'
-include 'auth'
-include 'store'
+// include 'auth'   // Unit 1에서 구현
+// include 'store'  // Unit 1에서 구현
 include 'table'
 include 'menu'
 include 'order'
